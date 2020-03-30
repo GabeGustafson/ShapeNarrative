@@ -56,7 +56,18 @@ function submit()
   // take enemy turn if player's turn was succesful
   if(turnInfo != "")
   {
-    fuel -= int(accuracy *  (5.5 / 100));
+    if(accuracy > 70)
+    {
+      fuel -= int(accuracy *  (7 / 100));
+    }
+    else if(accuracy <= 70 && accuracy > 50)
+    {
+      fuel -= int(accuracy *  (5 / 100));
+    }
+    else if(accuracy <= 50 && accuracy >= 0)
+    {
+      fuel -= int(accuracy *  (3 / 100));
+    }
 
     turnInfo += takeEnemyTurn();
 
