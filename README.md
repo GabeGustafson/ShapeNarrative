@@ -6,6 +6,8 @@ Rules:
 1. Watch both your health and your fuel wisely. They will be depleted for every action you take and if either drop to zero, the circles will reign victorious.
 1. Collect loot by selecting an item from the drop-down menu and pressing enter to continue to the next level.
 
+Note: The texts appearing after levels 1, 2, and 4 are all adapted directly from Thomas Lambdin's translation of the gnostic Gospel of Thomas.
+
 ![Screenshot1](ShapeNarrativeImage1.png)
 
 ![Screenshot2](ShapeNarrativeImage2.png)
